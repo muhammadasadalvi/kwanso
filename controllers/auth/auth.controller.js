@@ -1,5 +1,4 @@
 const { logger } = require("../../utills/logger");
-const { passwordGenerator } = require("../../utills/helpers");
 const { UserModel, OauthTokenModel } = require("../../models");
 // bcrypt to make the hash of password
 const bcrypt = require("bcrypt");
